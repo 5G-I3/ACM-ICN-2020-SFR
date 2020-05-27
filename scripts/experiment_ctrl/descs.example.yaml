@@ -1,0 +1,372 @@
+unscheduled:
+- channel: 20           # Y-topology
+  consumer: m3-273
+  forwarders:
+  - m3-281
+  - m3-289
+  producers:
+  - m3-2
+  - m3-72
+  duration: 2500
+  iotlab_site: grenoble
+  mode: sfr
+  vrep: true
+  data_len: 500
+  prefix: /big/data
+  runs:
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: reass
+    reflash: true
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: sfr
+    reflash: true
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  sfr_params:
+    arq: 150
+    dg: 0
+    frag: 4
+    ifg: 100
+    win: 1
+  sniff: true
+- channel: 20           # daisy chain topology
+  consumer: m3-233
+  forwarders:
+  - m3-241
+  - m3-249
+  - m3-257
+  - m3-265
+  - m3-273
+  - m3-281
+  producers:
+  - m3-289
+  duration: 2500
+  iotlab_site: grenoble
+  mode: sfr
+  vrep: true
+  data_len: 500
+  prefix: /big/data
+  runs:
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: true
+  - mode: sfr
+    vrep: true
+  - count: 300
+    delay: 10000
+    mode: reass
+    reflash: true
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: reass
+  - mode: reass
+  - count: 300
+    delay: 10000
+    mode: sfr
+    reflash: true
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  - count: 300
+    delay: 10000
+    mode: sfr
+    vrep: false
+  - mode: sfr
+    vrep: false
+  sfr_params:
+    arq: 500
+    dg: 0
+    frag: 2
+    ifg: 100
+    win: 1
+  sniff: true

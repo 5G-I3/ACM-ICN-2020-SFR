@@ -1,0 +1,5 @@
+libtmux<=0.8
+pexpect<=4.8
+iotlabcli<3.0
+git+https://github.com/miri64/iotlab_controller.git@0.3.0a
+pyyaml<=5.3
