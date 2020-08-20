@@ -1,0 +1,6 @@
+*.log
+*.pcap
+*.pcap.gz
+*.pdf
+*.pgf
+*.csv
